@@ -2,7 +2,7 @@
   "scripts": {},
   "name": "sequelize-pagination",
   "description": "Add a method on a sequelize model for pagination queries",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "index.js",
   "keywords": [
     "sequelize",
