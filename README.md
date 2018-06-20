@@ -101,24 +101,3 @@ async function paginateCounter(options) {
 * **include**: the query applied to [findAll](http://docs.sequelizejs.com/manual/tutorial/models-usage.html#-findall-search-for-multiple-elements-in-the-database) and pass value directly to [include](http://docs.sequelizejs.com/manual/tutorial/querying.html#relations-associations)
 
 return a promise with resolve data of `SequelizePaginationResult` type.
-
-
-### SequelizePaginationResult - pagination resolve data
-
-`SequelizePaginationResult` is a object type with following properties:
-* **entities** the results of the query
-* **pageIndex** page index
-* **pageCount** page count(total page amount)
-* **pageSize** page size for one page
-* **count** all entities for a model
-* **where** the `where` parameter of `findAll`
-* **orders** the `orders` parameter of `findAll`
-* **attributes** the `attributes` parameter of `findAll`
-* **include** the `include` parameter of `findAll`
-
-
-## Run tests
-
-```
-npm run test
-```
